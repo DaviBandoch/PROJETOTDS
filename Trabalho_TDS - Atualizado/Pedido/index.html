@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+<title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="code.js"></script>
+  </head>
+
+  <body>
+    <header>
+
+      <nav>
+        <img class="logo" src="../Images/Bunny_Skins__1_-removebg-preview.png" alt="">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="../Menu/index.html">Início</a></li>
+          <li><a href="../Showroom/index.html">Mercado</a></li>
+        </ul>
+        <div>
+          
+          <button onclick="window.location.href='../Pedido'" type="button" class="btn btn-success">
+            <img class="carrinho" src="/Images/imagem-principais/carrinho.png">
+          </button>
+        </div>
+      </header>
+        
+<div class="wrapeveryting">
+
+  
+  <h1>Pedido</h1>
+  
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+  </div>
+
+  <DIV class="button2">
+    <button type="button" class="btn-outline-dark" onclick="comecar()">Começar</button>
+  
+
+  </DIV>
+  
+  <h2 id="h2-refeicao" class="olaRefeicao">Oláﾠ<span id="nomePrint"></span> ,vamos começar a escolher suas skins! </h2>
+  
+  <div id= "selects" class="wrap-select">
+    
+    <h1>Aks R$650</h1>
+    
+    <div id="selects-div"></div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione</option>
+      <option value="1">Asimov</option>
+      <option value="2">Patrocinios</option>
+      <option value="3">Tons de preto</option>
+      <option value="4">Nevoa frontal</option>
+      <option value="5">Arabesca dourada</option>
+      <option value="6">Azul laminado</option>
+      <option value="7">Linhas vermelhas</option>
+      <option value="8">Aquecimento de aço</option>
+      <option value="9">Vulcan</option>
+      <option value="10">Inheritance</option>
+    </select>
+    
+    <h1>M4A1 R$320</h1>
+    
+    <div id="selects-div"></div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione</option>
+      <option value="1">Fosforo azul</option>
+      <option value="2">Cadeia de caracteres</option>
+      <option value="3">Cyrex</option>
+      <option value="4">Hiper fera</option>
+      <option value="5">Cyrex</option>
+      <option value="6">Espiral dourada</option>
+      <option value="7">Cyrex</option>
+      <option value="8">Espiral dourada</option>
+      <option value="9">Dizimadora</option>
+      <option value="10">Dizimadora</option>
+    </select>
+    
+    <h3>AWPs R$1000</h3>
+    
+    <div id="selects-div"></div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione</option>
+      <option value="1">Hidra do deserto</option>
+      <option value="2">Descarga eletrica</option>
+      <option value="3">Asiimov</option>
+      <option value="4">Grafite</option>
+      <option value="5">Atheris</option>
+      <option value="6">One Taiji</option>
+      <option value="7">Linhas vermelhas</option>
+      <option value="8">Asiimov</option>
+      <option value="9">Hiper fera</option>
+      <option value="10">Fogo selvagem</option>
+    </select>
+
+    <h3>Facas R$3300</h3>
+    
+    <div id="selects-div"></div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione</option>
+      <option value="1">Baioneta doppler (Ruby)</option>
+      <option value="2">Canivete borboleta Massacre</option>
+      <option value="3">Canivete borboleta Doppler</option>
+      <option value="4">Baioneta Doppler</option>
+      <option value="5">Karambit Doppler</option>
+      <option value="6">Karambit Dente de Tigre</option>
+      <option value="7">Faca classica Degrade</option>
+      <option value="8">Karambit Mão livre</option>
+      <option value="9">Faca esqueleto Teia rubra</option>
+      <option value="10">Faca stilleto Doppler</option>
+    </select>
+
+    <h3>Luvas R$720</h3>
+    
+    <div id="selects-div"></div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione</option>
+      <option value="1">Faixas caveiras de cobalto</option>
+      <option value="2">Luvas de especialista Fundação</option>
+      <option value="3">Faixas Superimpressão</option>
+      <option value="4">Luvas esportivas Vicio</option>
+      <option value="5">Luvas de Motorista Xadrez Imperial</option>
+      <option value="6">Luvas de especialista Ataque Felino</option>
+      <option value="7">Luvas de especialista Degrade</option>
+      <option value="8">Luvas de Motociclismo Fumacê</option>
+      <option value="9">Faixas Cuidado!</option>
+      <option value="10">Luvas de Motociclismo Linhas de Chegada</option>
+    </select>
+    
+    <div class="totalDiv" id="">
+      
+      <div class="div2">
+        
+<button class="botao2" onclick="showTotal()">Mostrar total</button>
+<p id="total"></p>
+        
+      </div>
+      
+    
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+  
+  
+  
+  
+  <div class="div3" style="text-align: center; justify-content: center; flex-direction: column; vertical-align: middle;">
+    <br>
+    <button class="botao" onclick="enviar()">Receber orçamento por Whatsapp</button>
+  </div>
+  
+  
+
+
+    
+
+
+    </body>
+    </html>
+
+
+
+    
