@@ -98,7 +98,7 @@ function enviar(){
     var linkWhatsApp = 
     "https://wa.me/" + 
     numeroTelefone + 
-    "?text=Valor total da compra: R$5990,00     /  Data da aquisição 11/03/2024" 
+    "?text=Valor total da compra: R$5990,00     /  Data da aquisição 15/03/2024" 
 
     mensagemGlobal;
 
